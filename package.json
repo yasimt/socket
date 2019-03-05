@@ -1,0 +1,24 @@
+{
+  "name": "Socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=development nodemon --use_strict index.js"
+  },
+  "keywords": [],
+  "author": "Imteyaz Raja",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "farmhash": "^2.1.0",
+    "moment": "^2.24.0",
+    "morgan": "^1.9.1",
+    "socket.io": "^2.2.0",
+    "socket.io-redis": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  }
+}
